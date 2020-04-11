@@ -8,6 +8,7 @@
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/open-iconic/1.1.1/font/css/open-iconic-bootstrap.min.css" rel="stylesheet" />
     <link
       rel="stylesheet"
       href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
@@ -32,79 +33,34 @@
     <div class="container">
       <!-- set up div rows for each time with div col elements for the time, event, and save button-->
       <!--9am-->
-      <div class="row">
-        <div class="col">9AM</div>
-        <div class="col-10" id="event-container">
+      <div class="row time-block">
+        <div class="col col-md-3 col-sm-1 hour">
+          <p>9PM</p>
         </div>
-        <button type="button" class= "col btn btn-lg btn-primary" id="save-event"></button>
-        
+        <textarea class="col-10 col-md-3 col-sm-1 future event-block">
+          Test
+        </textarea>
+        <button type="button" class= "col col-md-3 col-sm-1 btn btn-primary saveBtn" id="save-btn">
+
+        </button>
       </div>
       <!--10am-->
-      <div class="row">
-        <div class="col">10AM</div>
-        <div class="col-10">
-        </div>
-        <button type="button" class= "col btn btn-lg btn-primary" id="save-event"></button>
-
-      </div>
+      
       <!--11am-->
-      <div class="row">
-        <div class="col">11AM</div>
-        <div class="col-10">
-        </div>
-        <button type="button" class= "col btn btn-lg btn-primary" id="save-event"></button>
-
-      </div>
+      
       <!--12pm-->
-      <div class="row">
-        <div class="col">12PM</div>
-        <div class="col-10">
-        </div>
-        <button type="button" class= "col btn btn-lg btn-primary" id="save-event"></button>
-
-      </div>
+      
       <!--1pm-->
-      <div class="row">
-        <div class="col">1PM</div>
-        <div class="col-10">
-        </div>
-        <button type="button" class= "col btn btn-lg btn-primary" id="save-event"></button>
-
-      </div>
+      
       <!--2pm-->
-      <div class="row">
-        <div class="col">2PM</div>
-        <div class="col-10">
-        </div>
-        <button type="button" class= "col btn btn-lg btn-primary" id="save-event"></button>
-
-      </div>
+      
       <!--3pm-->
-      <div class="row">
-        <div class="col">3PM</div>
-        <div class="col-10">
-        </div>
-        <button type="button" class= "col btn btn-lg btn-primary" id="save-event"></button>
-
-      </div>
+      
       <!--4pm-->
-      <div class="row">
-        <div class="col">4PM</div>
-        <div class="col-10">
-        </div>
-        <button type="button" class= "col btn btn-lg btn-primary" id="save-event"></button>
-
-      </div>
+     
       <!--5pm-->
-      <div class="row">
-        <div class="col">5PM</div>
-        <div class="col-10">
-        </div>
-        <button type="button" class= "col btn btn-lg btn-primary" id="save-event"></button>
-
-      </div>
+      
     </div>
-
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
   </body>
