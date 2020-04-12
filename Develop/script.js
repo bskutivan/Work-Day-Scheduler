@@ -27,7 +27,17 @@ var row7 = 15
 var row8 = 16
 var row9 = 17
 
+var currentHour = moment().format("H")
+console.log(currentHour);
 
+if(currentHour = row1) {
+    $("#txtArea-1").removeClass("future");
+    $("#txtArea-1").addClass("present");
+    
+} else if(currentHour > row1) {
+    $("#txtArea-1").removeClass("future");
+    $("#txtArea-1").addClass("past");
+}
 
 //********* Save Button Scripts***********
 $("#row-1").on("click", "#saveBtn-1", function(event){
