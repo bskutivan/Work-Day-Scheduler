@@ -7,11 +7,13 @@ console.log(currentDate);
 $('#currentDay').append(currentDate);
 
 
-// target event div and convert to input on click
 
+//********* Save Button Script***********
+$("#row-1").on("click", "#saveBtn-1", function(event){
+    event.preventDefault();
+    var event1 = $("#txtArea-1")
+    .val()
+    .trim()
 
-
-// on click of save button conert input back to original element
-
-
-// track time to adjust background color of event block
+    console.log(event1);
+});
