@@ -215,7 +215,10 @@ $("#row-9").on("click", "#saveBtn-9", function(event){
 
     localStorage.setItem("1pmEvents", JSON.stringify(eventsRow9));
 });
-
+// Timeout function to reload page
+setTimeout(function() {
+    location.reload();
+}, 60 * 1000);
 
 // Load LocalStorage values
 
