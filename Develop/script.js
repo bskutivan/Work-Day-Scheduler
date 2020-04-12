@@ -16,6 +16,19 @@ eventsRow7 = [];
 eventsRow8 = [];
 eventsRow9 = [];
 
+//********* Conditional formatting ***********
+var row1 = 9
+var row2 = 10
+var row3 = 11
+var row4 = 12
+var row5 = 13
+var row6 = 14
+var row7 = 15
+var row8 = 16
+var row9 = 17
+
+
+
 //********* Save Button Scripts***********
 $("#row-1").on("click", "#saveBtn-1", function(event){
     event.preventDefault();
