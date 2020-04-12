@@ -20,3 +20,5 @@ $("#row-1").on("click", "#saveBtn-1", function(event){
 
     localStorage.setItem("9amEvents", JSON.stringify(eventsRow1));
 });
+
+$("#txtArea-1").val(JSON.parse(localStorage.getItem("9amEvents")));
