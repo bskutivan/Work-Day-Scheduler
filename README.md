@@ -22,4 +22,4 @@ When building out the javascript I looked into building out as little code as po
 I ultimately want to reduce the code down and reduce the amount of variable declared. I want to find a way to dynamically create the value for the row based on the time it is representing and then for each row compare this dynamically created value against the currentHour moment object.
 
 # Screenshots
-
+![](images/Screenshot1.jpg) 
