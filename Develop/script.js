@@ -6,7 +6,7 @@ var currentDate = moment().format('dddd [,] MMMM Do');
 console.log(currentDate);
 $('#currentDay').append(currentDate);
 
-
+eventsRow1 = [];
 
 //********* Save Button Script***********
 $("#row-1").on("click", "#saveBtn-1", function(event){
@@ -16,4 +16,7 @@ $("#row-1").on("click", "#saveBtn-1", function(event){
     .trim()
 
     console.log(event1);
+    eventsRow1.push(event1);
+
+    localStorage.setItem("9amEvents", JSON.stringify(eventsRow1));
 });
