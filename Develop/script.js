@@ -39,7 +39,84 @@ if(currentHour = row1) {
     $("#txtArea-1").addClass("past");
 }
 
-//********* Save Button Scripts***********
+if(currentHour = row2) {
+    $("#txtArea-2").removeClass("future");
+    $("#txtArea-2").addClass("present");
+    
+} else if(currentHour > row2) {
+    $("#txtArea-2").removeClass("future");
+    $("#txtArea-2").addClass("past");
+}
+
+if(currentHour = row3) {
+    $("#txtArea-3").removeClass("future");
+    $("#txtArea-3").addClass("present");
+    
+} else if(currentHour > row3) {
+    $("#txtArea-3").removeClass("future");
+    $("#txtArea-3").addClass("past");
+}
+
+if(currentHour = row4) {
+    $("#txtArea-4").removeClass("future");
+    $("#txtArea-4").addClass("present");
+    
+} else if(currentHour > row4) {
+    $("#txtArea-4").removeClass("future");
+    $("#txtArea-4").addClass("past");
+}
+
+if(currentHour = row5) {
+    $("#txtArea-5").removeClass("future");
+    $("#txtArea-5").addClass("present");
+    
+} else if(currentHour > row5) {
+    $("#txtArea-5").removeClass("future");
+    $("#txtArea-5").addClass("past");
+}
+
+if(currentHour = row6) {
+    $("#txtArea-6").removeClass("future");
+    $("#txtArea-6").addClass("present");
+    
+} else if(currentHour > row6) {
+    $("#txtArea-6").removeClass("future");
+    $("#txtArea-6").addClass("past");
+}
+
+if(currentHour = row7) {
+    $("#txtArea-7").removeClass("future");
+    $("#txtArea-7").addClass("present");
+    
+} else if(currentHour > row7) {
+    $("#txtArea-7").removeClass("future");
+    $("#txtArea-7").addClass("past");
+}
+
+if(currentHour = row8) {
+    $("#txtArea-8").removeClass("future");
+    $("#txtArea-8").addClass("present");
+    
+} else if(currentHour > row8) {
+    $("#txtArea-8").removeClass("future");
+    $("#txtArea-8").addClass("past");
+}
+
+if(currentHour = row9) {
+    $("#txtArea-9").removeClass("future");
+    $("#txtArea-9").addClass("present");
+    
+} else if(currentHour > row9) {
+    $("#txtArea-9").removeClass("future");
+    $("#txtArea-9").addClass("past");
+}
+
+//*****End of Coniditional Formatting ********//
+
+
+
+
+//********* Save Button Scripts***********//
 $("#row-1").on("click", "#saveBtn-1", function(event){
     event.preventDefault();
     var event1 = $("#txtArea-1")
