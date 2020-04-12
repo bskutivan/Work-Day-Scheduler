@@ -23,5 +23,5 @@ I ultimately want to reduce the code down and reduce the amount of variable decl
 
 # Screenshots
 
-<img src="./images/Screenshot1.png"/>
-<img src="./images/screenshot2.png"/>
+<img src="./images/Screenshot1.jpg"></img>
+<img src="./images/screenshot2.jpg"></img>
