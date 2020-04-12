@@ -27,17 +27,16 @@
     <header class="jumbotron">
       <h1 class="display-3">Work Day Scheduler</h1>
       <p class="lead">A simple calendar app for scheduling your work day</p>
-      <p class="lead">Current Date</p>
       <p id="currentDay" class="lead"></p>
     </header>
     <div class="container">
       <!-- set up div rows for each time with div col elements for the time, event, and save button-->
       <!--9am-->
-      <div class="row time-block">
+      <div class="row time-block" id="row-1">
         <div class="col hour">
           <p>9AM</p>
         </div>
-        <textarea class="col-10 future event-block">
+        <textarea class="col-10 future event-block" id="txtarea-1">
           Test
         </textarea>
         <button type="button" class= "col btn btn-primary saveBtn" id="save-btn">
@@ -45,11 +44,11 @@
         </button>
       </div>
       <!--10am-->
-      <div class="row time-block">
+      <div class="row time-block" id="row-2">
         <div class="col hour">
           <p>10AM</p>
         </div>
-        <textarea class="col-10 future event-block">
+        <textarea class="col-10 future event-block" id="txtarea-2">
           Test
         </textarea>
         <button type="button" class= "col btn btn-primary saveBtn" id="save-btn">
@@ -58,11 +57,11 @@
       </div>
 
       <!--11am-->
-      <div class="row time-block">
+      <div class="row time-block" id="row-3">
         <div class="col hour">
           <p>11AM</p>
         </div>
-        <textarea class="col-10 future event-block">
+        <textarea class="col-10 future event-block" id="txtarea-3">
           Test
         </textarea>
         <button type="button" class= "col btn btn-primary saveBtn" id="save-btn">
@@ -71,11 +70,11 @@
       </div>
 
       <!--12pm-->
-      <div class="row time-block">
+      <div class="row time-block" id="row-4">
         <div class="col hour">
           <p>12PM</p>
         </div>
-        <textarea class="col-10 future event-block">
+        <textarea class="col-10 future event-block" id="txtarea-4">
           Test
         </textarea>
         <button type="button" class= "col btn btn-primary saveBtn" id="save-btn">
@@ -84,11 +83,11 @@
       </div>
 
       <!--1pm-->
-      <div class="row time-block">
+      <div class="row time-block" id="row-5">
         <div class="col hour">
           <p>1PM</p>
         </div>
-        <textarea class="col-10 future event-block">
+        <textarea class="col-10 future event-block" id="txtarea-5">
           Test
         </textarea>
         <button type="button" class= "col btn btn-primary saveBtn" id="save-btn">
@@ -97,11 +96,11 @@
       </div>
 
       <!--2pm-->
-      <div class="row time-block">
+      <div class="row time-block" id="row-6">
         <div class="col hour">
           <p>2PM</p>
         </div>
-        <textarea class="col-10 future event-block">
+        <textarea class="col-10 future event-block" id="txtarea-6">
           Test
         </textarea>
         <button type="button" class= "col btn btn-primary saveBtn" id="save-btn">
@@ -110,11 +109,11 @@
       </div>
 
       <!--3pm-->
-      <div class="row time-block">
+      <div class="row time-block" id="row-7">
         <div class="col hour">
           <p>3PM</p>
         </div>
-        <textarea class="col-10 future event-block">
+        <textarea class="col-10 future event-block" id="txtarea-7">
           Test
         </textarea>
         <button type="button" class= "col btn btn-primary saveBtn" id="save-btn">
@@ -123,11 +122,11 @@
       </div>
 
       <!--4pm-->
-      <div class="row time-block">
+      <div class="row time-block" id="row-8">
         <div class="col hour">
           <p>4PM</p>
         </div>
-        <textarea class="col-10 future event-block">
+        <textarea class="col-10 future event-block" id="txtarea-8">
           Test
         </textarea>
         <button type="button" class= "col btn btn-primary saveBtn" id="save-btn">
@@ -136,11 +135,11 @@
       </div>
 
       <!--5pm-->
-      <div class="row time-block">
+      <div class="row time-block" id="row-9">
         <div class="col hour">
           <p>5PM</p>
         </div>
-        <textarea class="col-10 future event-block">
+        <textarea class="col-10 future event-block" id="txtarea-9">
           Test
         </textarea>
         <button type="button" class= "col btn btn-primary saveBtn" id="save-btn">
@@ -151,5 +150,6 @@
     </div>
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="script.js"></script>
   </body>
 </html>
